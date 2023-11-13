@@ -1,0 +1,19 @@
+name: Design System Admin Theme
+type: theme
+description: Adds CKEditor styles to the UM Library Admin Theme
+core_version_requirement: ^9 || ^10
+base theme: umlib_admin
+libraries:
+  - ds_admin/global-styling
+screenshot: ds-admin-theme.png
+regions:
+  header: 'Header'
+  pre_content: 'Pre-content'
+  breadcrumb: Breadcrumb
+  highlighted: Highlighted
+  help: Help
+  content: Content
+  footer_top: 'Footer Top'
+  footer_bottom: 'Footer Bottom'
+ckeditor5-stylesheets:
+  - css/style.css
