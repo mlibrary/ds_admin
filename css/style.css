@@ -58,3 +58,8 @@ blockquote {
   border-left: solid 4px #FFCB05;
   font-style: italic;
 }
+
+/* Hide the mystery breadcrumb */
+li.breadcrumb__item:has(a[href='/node']) {
+  display: none;
+}
